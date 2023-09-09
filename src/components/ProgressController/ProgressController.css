@@ -1,0 +1,19 @@
+.player-controllers__duration{
+    width: 342px;
+    height: 4px;
+    position: relative;
+    background-color: #C5C6C5;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+}
+
+.player-controllers__duration--visible{
+    opacity: 1;
+}
+
+.player-controllers__duration-progress{
+    width: 20px;
+    height: 4px;
+    background-color: #05AC6A;
+}

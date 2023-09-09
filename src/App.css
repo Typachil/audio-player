@@ -1,0 +1,9 @@
+.main{
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: right / contain no-repeat url("./assets/background.png");
+  background-color: #E3E3E3;
+}

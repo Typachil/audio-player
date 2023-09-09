@@ -1,0 +1,37 @@
+.player-controllers__sound{
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.player-controllers__sound-duration{
+    width: 260px;
+    height: 2px;
+    position: relative;
+    background-color: #C5C6C5;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.player-controllers__sound-progress{
+    width: 20px;
+    height: 2px;
+    background-color: #05AC6A;
+}
+
+.player-controllers__sound-switch{
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: -5px;
+    left: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: #05AC6A;
+}
+
+.player-controllers__sound-mute, .player-controllers__sound-cross{
+    cursor: pointer;
+}
